@@ -33,10 +33,10 @@
 			"jdkVersion": "17",
 			"jdkDistro": "oracle"
 		}
-	}
+	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
+	"forwardPorts": [8080, 5005, 33306]
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "java -version",
